@@ -48,7 +48,10 @@ body {
   border-radius: 0;
   padding: 32px 24px;
   width: 280px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .plan--featured {
